@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #bde5e1;
+    font-family: sans-serif;
+}
+.profile{
+    background-color: #bde5e1;
+    width: 40%;
+    float: right;
+}
+.about{
+    margin-left: 15px;
+}
+.info{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.info::-webkit-scrollbar{
+    width: 150px;
+    height: 150px;
+}
+.info h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.social-media img{
+    height: 50px;
+    margin-right: 30px;
+}
+.social-media{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.info h2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.Certificates img{
+    height: 80%;
+    width: 95%;
+    margin: 5px;
+}
+.Certificates{
+    display: inline-block;
+    width: 38%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+    background-color: white;
+}
+.Certificates small{
+    padding-top: 10px;
+    display: block;
+}
+.Interests img{
+    height:40%;
+    width:55%;
+    margin:5px;
+}
+.Interests{
+    display:inline-block;
+    width:38%;
+    padding:30px 10px;
+    margin:2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+    background-color: white;
+}
+.Interests small{
+    padding-top: 10px;
+    display: block;
+}
+.project img{
+    width: 31%;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.box{
+    margin: 30px;
+}
+.group input{
+    width: 45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background-color: white;
+}
+.area textarea{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    /* display: inline-block; */
+    background-color: white;
+}
+.butn{
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px;
+    margin: 2%;
+    background-color: rgb(94, 172, 245);
+    cursor: pointer;
+    color: white;
+}
+.contacts img{
+    width: 5px;
+    margin: -5px 5px;
+}
+.contacts span{
+    margin: 5%;
+}
+.contacts{
+    margin: 5% 0 5% 25%;
+    width: 65%;
+}
+@media only screen and (max-width:900px){
+    .info{
+        width: 100%;
+        overflow: inherit;
+    }
+    .profile{
+        width: 100%;
+    }
+    .Certificates{
+        width: 95%;
+        margin-bottom: 10%;
+    }
+    .Certificates img{
+        height: 8%;
+        margin: 10px 0;
+    }
+    .project img{
+        height: 8%;
+        width: 67%;
+    }
+    .Interests img{
+        height: 40px;
+        margin: 5px 0;
+    }
+    span{
+        display: block;
+    }
+}
+h1{
+    color: purple; 
+    font-style: italic;
+}
+table{
+    padding: 20px;
+    margin: 2px;
+    /* border: 2px solid red; */
+    background: white;
+    text-align: center;
+}
+.tab1 td{
+    padding: 2px;
+    height: 50px;
+    width: 300px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(0deg, rgb(219, 69, 174), rgb(12, 125, 190), rgb(79, 243, 114), 
+    rgb(211, 235, 76));
+    border-image-slice: 1;
+    /* background: rgb(178, 242, 253); */
+    color: darkorange;
+    /* font: bold; */
+    font-style: italic;
+    font-weight:bolder;
+}
+.tab td{
+    padding: 2px;
+    height: 50px;
+    width: 300px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(0deg, rgb(219, 69, 174), rgb(12, 125, 190), rgb(79, 243, 114), 
+    rgb(211, 235, 76));
+    border-image-slice: 1;
+    /* background: yellow; */
+}
